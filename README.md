@@ -1,2 +1,88 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZroWLq75)
-# -mern-test-template
+# WorkTrack – Task Management System
+
+## Overview
+
+WorkTrack is a full-stack task management system that allows users to register, authenticate, create projects, and manage tasks within each project.
+
+The application follows a secure and scalable backend architecture using the MVC pattern and integrates seamlessly with a React frontend.
+
+---
+
+## Tech Stack
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- bcrypt (Password Hashing)
+- express-validator
+- Helmet
+- express-rate-limit
+- CORS
+
+### Frontend
+- React (Vite)
+- Axios (with interceptors)
+- React Router
+- Tailwind CSS
+
+---
+
+## Core Features
+
+### Authentication
+- Secure user registration
+- JWT-based login
+- Protected routes
+- Logout functionality
+
+### Project Management
+- Create projects
+- View project list
+- Navigate to project details
+
+### Task Management
+- Create tasks
+- Edit tasks
+- Update task status
+- Mark tasks as completed
+
+---
+
+## Backend Architecture
+
+The backend follows MVC with a service layer:
+
+- Routes → Define API endpoints
+- Controllers → Handle HTTP logic
+- Services → Business logic layer
+- Models → Database schema definitions
+- Middleware → Authentication & validation
+
+---
+
+## Security Features
+
+- Password hashing using bcrypt
+- JWT-based authentication
+- Role-based access control
+- CORS configuration
+- Rate limiting
+- NoSQL injection prevention
+
+---
+
+## Running the Project Locally
+
+### Backend
+```bash
+cd Worktrack_backend
+npm install
+npm run dev
+
+### Frontend
+```bash
+cd Worktrack-frontend
+npm install
+npm run dev
